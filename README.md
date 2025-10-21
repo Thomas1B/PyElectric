@@ -1,4 +1,6 @@
 # Py Electric
 
-Py Electric is a python library for electonic analysis.
-It contains various functions like parallel components.
+Py Electric is a python library for electonic analysis using Python Interactive Notebooks.
+It contains various functions like to calculate parallel components impedance, voltage divider, etc.
+
+
