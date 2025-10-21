@@ -1,7 +1,6 @@
 import numpy as np
 import sympy as sp
 
-<<<<<<< HEAD
 def voltageDivder(Vin, Z1, Z2):
     '''
     Calculates voltage divider
@@ -17,8 +16,6 @@ def voltageDivder(Vin, Z1, Z2):
             Use 'lamdify' with this result to get a numerical value.
     '''
     return sp.simplify(Vin*(Z1/Z2))
-=======
->>>>>>> d6598127e6298d3bf9aa49991b20412d2b6b64e3
 
 def parallel(*xs):
     '''
@@ -28,11 +25,6 @@ def parallel(*xs):
         xs: seperate or list of components.
         
     Returns
-<<<<<<< HEAD
-=======
-        sympy expression.
-            Use 'lamdify' with this result to get a numerical value.
->>>>>>> d6598127e6298d3bf9aa49991b20412d2b6b64e3
     '''
     import sympy as sp
     import numpy as np
