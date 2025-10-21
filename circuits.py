@@ -10,6 +10,8 @@ def parallel(*xs):
         xs: seperate or list of components.
         
     Returns
+        sympy expression.
+            Use 'lamdify' with this result to get a numerical value.
     '''
     import sympy as sp
     import numpy as np
