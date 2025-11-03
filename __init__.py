@@ -1,13 +1,16 @@
-<<<<<<< HEAD
+
 from .circuits import (
+    eng_notation,
     parallel,
-    voltageDivder
+    voltage_div
 )
-=======
+
 from .circuits import parallel
 
 
 __all__ = [
-    'parallel'
+    'eng_notation',
+    'parallel',
+    'voltage_div'
 ]
->>>>>>> d6598127e6298d3bf9aa49991b20412d2b6b64e3
+
