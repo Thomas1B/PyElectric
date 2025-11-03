@@ -1,6 +1,6 @@
 import numpy as np
 import sympy as sp
-
+import math
 
 def eng_notation(value, sig_figs=3):
     """
@@ -39,7 +39,7 @@ def eng_notation(value, sig_figs=3):
         24:  "Y",  # yotta
     }
 
-    import math
+
 
     exponent = int(math.floor(math.log10(abs(value)) / 3) * 3)
     exponent = max(min(exponent, 24), -24)  # clamp to available prefixes
